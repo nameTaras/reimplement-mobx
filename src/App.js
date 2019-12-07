@@ -109,7 +109,7 @@ function App() {
   return (
       <div className="App">
         <h1>Counter {store.count}</h1>
-        <button onClick={() => store.increment()} />
+        <button onClick={() => store.increment()} >increment</button>
       </div>
     )
 }
